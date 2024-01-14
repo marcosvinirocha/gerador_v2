@@ -1,7 +1,11 @@
 <template>
   <div id="container">
     <strong>{{ name }}</strong>
-    <p>Explore <a target="_blank" rel="noopener noreferrer" href="https://ionicframework.com/docs/components">UI Components</a></p>
+    <p>Explore <a target="_blank" rel="noopener noreferrer" href="https://ionicframework.com/docs/components">UI
+        Components</a></p>
+    <h1 class="text-3xl font-normal underline">
+      Hello world!
+    </h1>
   </div>
 </template>
 
