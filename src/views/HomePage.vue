@@ -16,7 +16,8 @@
           <ion-toolbar>
             <ion-title>Senha Gerada</ion-title>
             <ion-buttons slot="end">
-              <ion-button @click="setOpen(false)">Close</ion-button>
+              <ion-button @click="setOpen(false)">Voltar</ion-button>
+              <ion-button @click="setOpen(false)">Salvar</ion-button>
             </ion-buttons>
           </ion-toolbar>
         </ion-header>
