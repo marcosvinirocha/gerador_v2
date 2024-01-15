@@ -8,7 +8,7 @@
       <input id="default-range" min="6" max="20" type="range" value="10"
         class="w-full h-2 mb-10 bg-gray-200 rounded-lg appearance-none cursor-pointer">
       <button type="button"
-        class="h-10 w-52 px-5 py-2.5 text-sm font-medium text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 rounded-lg text-center "
+        class="h-10 w-60 px-5 py-2.5 text-sm font-medium text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 rounded-lg text-center "
         @click="setOpen(true)">Gerar
         Senha</button>
       <ion-modal :is-open="isOpen">
